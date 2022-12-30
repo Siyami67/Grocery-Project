@@ -15,10 +15,17 @@
     background-color: aqua;
     padding: 20px;
 }
-.top input{
-    outline: none;
-    border: 0;
-}
-.bottom{
+.bottom ,.top , #clear_btn , .panel{
     margin-top: 20px;
+}
+ul {
+    list-style-type:square;
+    margin-left: 10%;
+}
+button , input{
+    border: 0;
+    outline: 0;
+}
+#clear_btn{
+    width: 20%;
 }
